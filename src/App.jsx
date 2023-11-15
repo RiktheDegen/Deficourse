@@ -26,6 +26,7 @@ const InstructorsSection = () => {
           {/* Replace the following with your actual logos */}
           <img src="/static/msft.webp" alt="Logo 1" className="h-12 w-auto" />
           <img src = "/static/duke.png" alt="Logo 2" className="h-12 w-auto" />
+          <img src = "/static/duke.png" alt="Logo 2" className="h-12 w-auto" />
           <img src="/static/SAP.png" alt="Logo 3" className="h-12 w-auto" />
           <img src="/static/choise.jpeg" alt="Logo 4" className="h-12 w-auto" />
         </div>
