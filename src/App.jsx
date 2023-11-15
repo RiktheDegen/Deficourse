@@ -2,13 +2,16 @@ import React, { useState } from 'react';
 import BeenhereIcon from '@mui/icons-material/Beenhere';
 import Duke from './static/duke.png'
 import SAP from './static/SAP.png'
+import MSFT from './static/msft.webp'
+import Choise from './static/choise.jpeg'
+import Gain from './static/Gain.png'
 
 const Header = () => {
   return (
     <header className="bg-blue-500 text-white py-4">
       <div className="container mx-auto flex items-center">
         {/* Logo (Replace 'YourLogo.png' with your actual logo image source) */}
-        <img src="/src/static/Gain.png" alt="Logo" className="h-8 w-auto mr-4" />
+        <img src={Gain} alt="Logo" className="h-8 w-auto mr-4" />
 
         {/* Optional: Site Title */}
         {/* <h1 className="text-xl font-bold">Your Site Title</h1> */}
@@ -25,10 +28,10 @@ const InstructorsSection = () => {
         {/* Logos */}
         <div className="flex justify-center items-center space-x-8 mt-8 mb-8">
           {/* Replace the following with your actual logos */}
-          <img src="/static/msft.webp" alt="Logo 1" className="h-12 w-auto" />
+          <img src={Choise} alt="Logo 1" className="h-12 w-auto" />
           <img src = {Duke} alt="Logo 2" className="h-12 w-auto" />
         <img src={SAP} alt="Logo 3" className="h-12 w-auto" />
-          <img src="/static/choise.jpeg" alt="Logo 4" className="h-12 w-auto" />
+          <img src={MSFT} alt="Logo 4" className="h-12 w-auto" />
         </div>
       </div>
     </section>
