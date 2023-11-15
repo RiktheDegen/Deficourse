@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import BeenhereIcon from '@mui/icons-material/Beenhere';
-
+import Duke from './static/duke.png'
+import SAP from './static/SAP.png'
 
 const Header = () => {
   return (
@@ -25,9 +26,8 @@ const InstructorsSection = () => {
         <div className="flex justify-center items-center space-x-8 mt-8 mb-8">
           {/* Replace the following with your actual logos */}
           <img src="/static/msft.webp" alt="Logo 1" className="h-12 w-auto" />
-          <img src = "/static/duke.png" alt="Logo 2" className="h-12 w-auto" />
-          <img src = "/static/duke.png" alt="Logo 2" className="h-12 w-auto" />
-          <img src="/static/SAP.png" alt="Logo 3" className="h-12 w-auto" />
+          <img src = {Duke} alt="Logo 2" className="h-12 w-auto" />
+        <img src={SAP} alt="Logo 3" className="h-12 w-auto" />
           <img src="/static/choise.jpeg" alt="Logo 4" className="h-12 w-auto" />
         </div>
       </div>
