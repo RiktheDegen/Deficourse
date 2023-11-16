@@ -9,7 +9,7 @@ import Gain from './static/Gain.png'
 const Header = () => {
   return (
     <header className="bg-blue-500 text-white py-4">
-      <div className="container mx-auto flex items-center">
+      <div className="container mx-auto flex items-center justify-between px-4">
         {/* Logo (Replace 'YourLogo.png' with your actual logo image source) */}
         <img src={Gain} alt="Logo" className="h-8 w-auto mr-4" />
 
@@ -214,5 +214,8 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
+
+
+
 
 
